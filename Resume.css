@@ -1,0 +1,164 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f0f0f0;
+}
+
+.about {
+    border: 1px solid beige;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.about:hover {
+    box-shadow: 0px 0px 5px 3px rgb(102, 100, 100);
+    transition: 0.4s;
+    background-color: #494c4f;
+}
+
+.education {
+    border: 1px solid beige;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.education:hover {
+    box-shadow: 0px 0px 5px 3px rgb(102, 100, 100);
+    transition: 0.4s;
+    background-color: #494c4f;
+}
+
+.projects {
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid beige;
+}
+
+.projects:hover {
+    box-shadow: 0px 0px 5px 3px rgb(102, 100, 100);
+    transition: 0.4s;
+    background-color: #494c4f;
+}
+
+.head {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    padding: 30px;
+    background-color: rgb(224, 220, 220);
+    box-shadow: 5px 4px 5px rgb(180, 175, 175);
+    margin-top: 90px;
+}
+
+.head h1 {
+    width: 30%;
+}
+
+.head p {
+    border-top: 2px solid black;
+    padding: 10px;
+    margin: 70px -23%;
+}
+
+.head img{
+    border-radius: 50%;
+    margin-left: 90%;
+    margin-top: -15px;
+}
+
+header {
+    display: inline;
+    box-shadow: 9px 7px 9px 4px black;
+    height: 60px;
+    justify-content: center;
+    background-color: rgb(53, 53, 51);
+    color: #fff;
+    padding: 20px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    line-height: 20px;
+    list-style-type: none;
+    justify-content: center;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 98%;
+    border: 1px solid rgb(146, 138, 138);
+    background-color: #d9dbde;
+    margin: 20px;
+    padding: 20px;
+}
+
+.border {
+    border: 1px solid black;
+    width: 11%;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 8px 8px rgb(206, 206, 206);
+}
+
+.degrees strong {
+    display: flex;
+    flex-direction: column;
+    line-height: 60px;
+}
+
+.degree {
+    margin: -55px 0 0 70px;
+    padding: 10px;
+    width: auto;
+}
+
+section.section {
+    padding: 40px 0;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.project h3{
+    margin: 10px 0 15px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: static;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 14px;
+}
